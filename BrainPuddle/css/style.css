@@ -46,6 +46,23 @@ h3 {
 	text-align: justify;
 }
 
+.code {
+	font-family: 'Share Tech Mono', monospace;
+	font-size: 24px;
+	border: 2px solid #C8C8C8;
+	background-color: #E8E8E8;
+	width: auto;
+	height: auto;
+}
+
+.inlineCode {
+	font-family: 'Share Tech Mono', monospace; 
+	font-size:24px; 
+	border:1px solid #C8C8C8; 
+	padding: 2px 2px 2px 2px; 
+	background-color:#E8E8E8;
+}
+
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
@@ -63,9 +80,10 @@ a.rpanel:hover{ color: #fff; }
 	height: 80px; 	
 	position: fixed;
 	margin-top: 0px;
+	z-index: 999;
 }
 
-#nav { width: 50%; float: right; margin-top: 20px; }
+#nav { width: 55%; float: right; margin-top: 20px; }
 #logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Oswald"; font-weight: bold; }
 #nav ul{
 	list-style: none;
@@ -101,6 +119,11 @@ a.rpanel:hover{ color: #fff; }
  .quotes_container { width: 800px; margin: 0 auto; }
 
 #logoimg { background: url('../img/logo.png')no-repeat; width:40px; height: 21px; margin: 0 auto; display: block; position: fixed;}
+#brainimg { background: url('../img/brain.png')no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
+
+.clearfix {
+	clear: both;
+}
 
 #title {font-family: 'Wellfleet'; font-size: 48px; }
 
@@ -143,7 +166,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: 320px;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 120px 0;
@@ -152,7 +175,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide3{
 	background: url(../img/coding-blue-digits.bmp) 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 300px;
+	height: 400px;
 	padding: 120px 0 0 0;	
 	background-size: cover;
 }
@@ -160,7 +183,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: auto;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 120px 0;
@@ -176,12 +199,27 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide6{
 	background-color: #fff;
 	color: #333333;
-	height: 300px;
+	height: auto;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 120px 0;
 }
 
+#slide7 {
+	background: url(../img/fingers-keyboard.bmp) 50% 0 no-repeat fixed;
+	height: 300px;
+	padding: 170px 0 0 0;
+	background-size: cover;
+}
+
+#slide8 {
+	background-color: #fff;
+	color: #333333;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 120px 0;
+}
 
 
 /*= FOOTER 
