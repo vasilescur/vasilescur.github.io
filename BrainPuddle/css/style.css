@@ -118,8 +118,8 @@ a.rpanel:hover{ color: #fff; }
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
  .quotes_container { width: 800px; margin: 0 auto; }
 
-#logoimg { background: url('../img/logo.png')no-repeat; width:40px; height: 21px; margin: 0 auto; display: block; position: fixed;}
-#brainimg { background: url('../img/brain.png')no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
+#logoimg { background: url('../img/JPEG/logo.jpg')no-repeat; width:40px; height: 21px; margin: 0 auto; display: block; position: fixed;}
+#brainimg { background: url('../img/JPEG/brain.jpg')no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
 
 .clearfix {
 	clear: both;
@@ -155,7 +155,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2{ width: 100%; }
 #slide1{
-	background:url('../img/binary-rain.png') 50% 0 no-repeat;
+	background:url('../img/JPEG/binary-rain.jpg') 50% 0 no-repeat;
 	align: center;
 	height: 600px;
 	margin: 0;
@@ -173,7 +173,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background: url(../img/coding-blue-digits.bmp) 50% 0 no-repeat fixed;
+	background: url(../img/JPEG/coding-blue-digits.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 400px;
 	padding: 120px 0 0 0;	
@@ -190,7 +190,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide5{
-	background: url(../img/coding-chinese-letters.bmp) 50% 0 no-repeat fixed;
+	background: url(../img/JPEG/coding-chinese-letters.jpg) 50% 0 no-repeat fixed;
 	height: 300px;
 	padding: 170px 0 0 0;
 	background-size: cover;
@@ -206,7 +206,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide7 {
-	background: url(../img/fingers-keyboard.bmp) 50% 0 no-repeat fixed;
+	background: url(../img/JPEG/fingers-keyboard.jpg) 50% 0 no-repeat fixed;
 	height: 300px;
 	padding: 170px 0 0 0;
 	background-size: cover;
