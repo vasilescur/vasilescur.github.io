@@ -118,8 +118,8 @@ a.rpanel:hover{ color: #fff; }
  .author_name_gray { font-family:"Wellfleet";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
  .quotes_container { width: 800px; margin: 0 auto; }
 
-#logoimg { background: url('../img/logo.png')no-repeat; width:40px; height: 21px; margin: 0 auto; display: block; position: fixed;}
-#brainimg { background: url('../img/brain.png')no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
+#logoimg { background: url('../img/logo.png') no-repeat; width:40px; height: 21px; margin: 0 auto; display: block; position: fixed;}
+#brainimg { background: url('../img/brain.png') no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
 
 .clearfix {
 	clear: both;
