@@ -119,7 +119,7 @@ a.rpanel:hover{ color: #fff; }
  .quotes_container { width: 800px; margin: 0 auto; }
 
 #logoimg { background: url('../img/logo.png') no-repeat; width:40px; height: 21px; margin: 0 auto; display: block; position: fixed;}
-#brainimg { background: url('../img/brain.png') no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
+#brainimg { background: url('../img/brain.jpg') no-repeat; width:100px; height: 80px; margin: 0 auto; display: block; position: relative;}
 
 .clearfix {
 	clear: both;
@@ -173,7 +173,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide3{
-	background: url(../img/coding-blue-digits.bmp) 50% 0 no-repeat fixed;
+	background: url(../img/coding-blue-digits.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
 	height: 400px;
 	padding: 120px 0 0 0;	
@@ -190,7 +190,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide5{
-	background: url(../img/coding-chinese-letters.bmp) 50% 0 no-repeat fixed;
+	background: url(../img/coding-chinese-letters.jpg) 50% 0 no-repeat fixed;
 	height: 300px;
 	padding: 170px 0 0 0;
 	background-size: cover;
@@ -206,7 +206,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 }
 
 #slide7 {
-	background: url(../img/fingers-keyboard.bmp) 50% 0 no-repeat fixed;
+	background: url(../img/fingers-keyboard.jpg) 50% 0 no-repeat fixed;
 	height: 300px;
 	padding: 170px 0 0 0;
 	background-size: cover;
