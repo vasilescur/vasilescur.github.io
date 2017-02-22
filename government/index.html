@@ -31,6 +31,8 @@
 ================================================== -->
 
 <body>
+<div class="egg-cover" id="egg-wrapper"></div>
+  <script> document.getElementById('egg-wrapper').style.opacity = '0.0'; </script>
     <div class="navbar-wrapper">
         <div class="container">
             <nav class="navbar navbar-inverse navbar-static-top">
@@ -66,8 +68,17 @@
                                     <li>
                                         <a href="#">[External 4]</a>
                                     </li>
+
+				    <script>
+                                      function egg() {
+					document.getElementById('egg-wrapper').style.opacity = '1.0';
+					document.getElementById('egg-img').style.opacity = '1.0'
+                                        alert("Egg egg egg egg, egg egg egg egg, egg egg egg egg egg egg egg egg");
+                                      }
+                                    </script>
+
                                     <li>
-                                        <a href="#">[External 5]</a>
+                                        <a onClick="egg();" href="#">Egg</a>
                                     </li>
                                 </ul>
                             </li>
@@ -147,6 +158,8 @@
     <div class="container marketing">
         <!-- Three columns of text below the carousel -->
         <div class="row">
+<img id="egg-img" src="img/egg.png" style="width: 300px; height: 430px; content-align: center; text-align: center; position: fixed; z-index: 110;">
+<script> document.getElementById('egg-img').style.opacity = '0.0'; </script>
             <div class="col-lg-4">
                 <img class="img-circle" src="img/recorder.jpg" alt="Generic placeholder image" width="140" height="140">
                 <h2>Elementary School
@@ -187,8 +200,6 @@
             <!-- /.col-lg-4 -->
         </div>
         <!-- /.row -->
-
-
 
         <!-- START THE FEATURETTES -->
 
