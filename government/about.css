@@ -13,11 +13,13 @@
 
 
 .mission-statement {
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 36px;
 	text-align: justify;
+	font-weight: 100px;
 	padding-top: 0px;
 	padding-bottom: 40px;
+	line-height: 44px;
 }
 
 /* GLOBAL STYLES
@@ -25,9 +27,10 @@
 
 #footer
 {
+	font-size: 18px;
     text-align: center;
-    position: fixed;
-    bottom: 20px;
+    position: static;
+    bottom: 0px;
     width: 100%;
 }
 
