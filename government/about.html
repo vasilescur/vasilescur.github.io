@@ -1,39 +1,145 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap Agency Template</title>
 
-    <link rel="icon" href="favicon.ico">
-    <title>Music in Schools</title>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="../css/bootstrap.css">
+<link rel="stylesheet" href="about.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!-- Custom styles for this template -->
-    <link href="about.css" rel="stylesheet">
 </head>
-
 <body>
+<div class="navbar-wrapper">
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+          <a class="navbar-brand" href="#">Music Programs</a> </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="index.html">Home</a> </li>
+            <li class="active"> <a href="about.html">About</a> </li>
+            <li> <a href="#">Contact Us</a> </li>
+            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">External Links<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li> <a href="http://www.pbs.org/parents/education/music-arts/the-benefits-of-music-education/">PBS - Benefits of Music Education</a> </li>
+                <li> <a href="http://www.pbs.org/parents/education/music-arts/the-benefits-of-music-education/">National Association of Music Education</a> </li>
+                <li> <a href="#">[External 3]</a> </li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">[Header 1]</li>
+                <li> <a href="#">[External 4]</a> </li>
+                <script>
+                                      function egg() {
 
-	<div class="jumbotron">
-    <h1 style="text-align: center">About Us</h1>
-    <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </p>
+					document.body.appendChild(document.createElement("DIV"));
+
+					document.getElementById('egg-wrapper').style.opacity = '1.0';
+					document.getElementById('egg-img').style.opacity = '1.0'
+
+					document.getElementById('egg-wrapper').style.backgroundColor = "#"+((1<<24)*Math.random()|0).toString(16);
+
+					setTimeout(egg, 100);
+                                      }
+                                    </script>
+                <li> <a onClick="egg();" href="#">Egg</a> </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
 </div>
 
+<!-- HEADER --> 
+
+<!-- / HEADER --> 
+
+<!--  SECTION-1 -->
+<section>
+  <div class="row">
+    <div class="col-lg-12 page-header text-center">
+      <h2 class="about-us-header-text"><span class="small-caps-bigs">A</span><span class="small-caps-smalls">BOUT </span><span class="small-caps-bigs">U</span><span class="small-caps-smalls">S</span></h2>
+    </div>
+  </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 text-center"> <img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="img/shannon.jpg" data-holder-rendered="true">
+        <h3>Shannon Symons</h3>
+        <p>Senior at Loveland High SChool. Trombone player in the LHS Wind Ensemble and Jazz Commerical and Contemporary Group. </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="img/radu.jpg" data-holder-rendered="true">
+        <h3>Radu Vasilescu</h3>
+        <p>Junior at Loveland High School. Violinist in LHS Chamber Orchestra, Prinicpal 2nd Violin of the Cincinnati Symphony Youth Orchestra, and programming afficionado.
+        	<a href="http://www.google.com/">Google here.</a>
+        </p>
+      </div>
+      <div class="col-lg-4 col-sm-12 text-center"><img class="img-circle" alt="140x140" style="width: 140px; height: 140px;" src="img/claudia.jpg" data-holder-rendered="true">
+        <h3>Claudia Bow</h3>
+        <p>I need some information about you to put in here. Please add some to the Google Doc and I will update it to this site. Thanks!</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 page-header text-center">
+        <h2 style="font-size: 36px;"><span class="small-caps-bigs">O</span><span class="small-caps-smalls">UR </span><span class="small-caps-bigs">M</span><span class="small-caps-smalls">ISSION</span></h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 col-lg-6">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <small>Someone famous in <cite title="Source Title">Source Title</cite></small> </blockquote>
+      </div>
+      <div class="col-6 col-lg-6">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <small>Someone famous in <cite title="Source Title">Source Title</cite></small> </blockquote>
+      </div>
+      <div class="col-6 col-lg-6">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <small>Someone famous in <cite title="Source Title">Source Title</cite></small> </blockquote>
+      </div>
+      <div class="col-6 col-lg-6">
+        <blockquote>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <small>Someone famous in <cite title="Source Title">Source Title</cite></small> </blockquote>
+      </div>
+    </div>
+  </div>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-9 col-lg-9">
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, praesentium, autem, veritatis error quidem eos fuga atque asperiores magnam deleniti necessitatibus sequi quo</p>
+        </div>
+        <div class=" text-center col-sm-6 col-lg-3 col-sm-offset-3 col-md-3 col-xs-offset-4 col-xs-5 col-lg-offset-0"> <a class="btn  btn-block btn-lg btn-success" href="#" title="">Sign up now!</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+  <p class="pull-right"> <a href="#">Back to top</a> </p>
+  <p> &copy; 2017 Radu Vasilescu, Claudia Bow, Shannon Symons. <a style="cursor: pointer; cursor: hand;" onClick="alert('This is an American Government project for Mr. Weathers, in which our group of three students attempted to influence our government by presenting information about the importance of large music programs in public high schools.');"> What's this website?</a> </p>
+</footer>
+
+<!-- / FOOTER --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="../js/jquery-1.11.3.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="../js/bootstrap.js"></script>
 </body>
 </html>
