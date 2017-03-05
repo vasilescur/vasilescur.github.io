@@ -2,10 +2,16 @@
 -------------------------------------------------- */
 
 .mission-statement {
-	font-size: 36px;
+	font-size: 38px;
 	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.mission-sub {
+	font-size: 22px;
+	text-align: justify;
+	
 }
 
 
