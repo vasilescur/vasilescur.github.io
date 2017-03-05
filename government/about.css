@@ -13,16 +13,23 @@
 
 
 .mission-statement {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 	font-size: 36px;
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	text-align: justify;
+	padding-top: 0px;
+	padding-bottom: 40px;
 }
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
 
-
+#footer
+{
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+}
 
 
 /* Padding below the footer and lighter body text */
