@@ -1,13 +1,6 @@
 @charset "utf-8";
 /* Global Styles */
 
-li {
-  color: #999;
-  font-size: 14px;
-  line-height: 140%;
-}
-
-
 /* --------------------------------
    			   NAVBAR
    --------------------------------
@@ -99,7 +92,7 @@ header .profileHeader h3 {
 /* -------- LINKS --------- */
 
 a {
-  color: #FF7F33;
+  color: 
 }
 
 /* SEPARATOR LINES -----------------*/
@@ -115,7 +108,7 @@ hr {
 
 header .profileHeader p {
 	font-family: sans-serif;
-	color: #ADADAD;
+	color: rgba(146,146,146,1.00);
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.8;
@@ -176,26 +169,24 @@ header .socialNetworkNavBar .socialNetworkNav img:hover {
 
 .section2 .sectionContentTitle {
 	font-family: sans-serif;
-	color: #E8E8E8;
+	color: rgba(146,146,146,1.00);
 	font-size: 18px;
 	font-weight: 700;
 }
 
 .section2 .sectionContentSubTitle {
 	font-family: sans-serif;
-	color: #BFBFBF;
+	color: rgba(68,67,67,1.00);
 	font-size: 14px;
 	font-weight: 400;
-  
-  margin-top: -12px;
 }
 
 .section2 .sectionContent {
 	font-family: sans-serif;
-  color: #999;
+	color: rgba(146,146,146,1.00);
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 1.3;
+	line-height: 1.8;
 }
 
 .mainContent {
