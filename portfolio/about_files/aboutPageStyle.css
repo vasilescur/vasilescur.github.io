@@ -96,6 +96,16 @@ header .profileHeader h3 {
 }
 
 
+.sidebar-img {
+  width: 160px;
+  float: left;
+  margin-left: -230px;
+  margin-top: -50px;
+}
+
+
+
+
 /* -------- LINKS --------- */
 
 a {
