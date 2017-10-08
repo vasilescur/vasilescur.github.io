@@ -14,6 +14,14 @@
 	
 }
 
+#petition-button {
+    position: relative; 
+    margin-top: -15px; 
+    font-size: 2em;
+    float: right;
+    width: 7em;
+    margin-right: 20px;
+}
 
 /* Padding below the footer and lighter body text */
 
